@@ -31,22 +31,31 @@ if not str.session_state.giris_basarili:
 bloklarin_sakinleri = {}
 
 bloklarin_sakinleri["A Blok"] = [
-    "Metin Aksoy (A1 01 / Kat Maliki)", "Gülten Aksoy (A1 01 / Eşi-Yakını)",
-    "Murat Yılmaz (A1 02 / Kat Maliki)", "Selin Yılmaz (A1 02 / Eşi-Yakını)",
-    "Ahmet Özdemir (A1 03 / Kat Maliki)", "Zeynep Özdemir (A1 03 / Eşi-Yakını)",
-    "Mustafa Demir (A1 04 / Kat Maliki)", "Ayşe Demir (A1 04 / Eşi-Yakını)",
-    "Hasan Kaya (A1 05 / Kat Maliki)", "Fatma Kaya (A1 05 / Eşi-Yakını)",
-    "İbrahim Çelik (A1 06 / Kat Maliki)", "Emine Çelik (A1 06 / Eşi-Yakını)",
-    "Ali Şahin (A1 07 / Kat Maliki)", "Hatice Şahin (A1 07 / Eşi-Yakını)",
-    "Hüseyin Yıldız (A1 08 / Kat Maliki)", "Özlem Yıldız (A1 08 / Eşi-Yakını)",
-    "Mehmet Öztürk (A1 09 / Kat Maliki)", "Canan Öztürk (A1 09 / Eşi-Yakını)",
-    "Süleyman Aydın (A1 10 / Kat Maliki)", "Merve Aydın (A1 10 / Eşi-Yakını)",
-    "Kadir Arslan (A1 11 / Kat Maliki)", "Dilek Arslan (A1 11 / Eşi-Yakını)",
-    "Recep Polat (A1 12 / Kat Maliki)", "Seda Polat (A1 12 / Eşi-Yakını)",
-    "Eren Kılıç (A1 13 / Kat Maliki)", "Büşra Kılıç (A1 13 / Eşi-Yakını)",
-    "Caner Koç (A1 14 / Kat Maliki)", "Filiz Koç (A1 14 / Eşi-Yakını)",
-    "Gökhan Kurt (A1 15 / Kat Maliki)", "Aslı Kurt (A1 15 / Eşi-Yakını)",
-    "Deniz Özkan (A1 16 / Kat Maliki)", "Eda Özkan (A1 16 / Eşi-Yakını)"
+    "Burkay İlçin (A1 01 / Kat Maliki)", "Sevil İlçin (A1 01 / Eşi-Yakını)",
+    "Ahmet Çelik (A1 02 / Kat Maliki)", "Meral Çelik (A1 02 / Eşi-Yakını)",
+    "Duygu Bozkurt (A1 03 / Kat Maliki)", "Demet Ufuk (A1 04 / Kat Maliki)",
+    "Hakan Yıldırım (A1 05 / Kat Maliki)", "Hilal Aksoy Yıldırım (A1 05 / Eşi-Yakını)",
+    "Nevzat Güzeldere (A1 06 / Kat Maliki)", "Müberra Güzeldere (A1 06 / Eşi-Yakını)",
+    "Mustafa Akkaya (A1 07 / Kat Maliki)", "Efe Cömert (A1 08 / Kat Maliki)",
+    "Ceren Cömert (A1 08 / Eşi-Yakını)", "Alaattin Aydemir (A1 09 / Eşi-Yakını)",
+    "Ahmet Saygılı (A1 10 / Kat Maliki)", "Şule Kaleli Saygılı (A1 10 / Eşi-Yakını)",
+    "Buğrahan Yılmaz (A1 11 / Kat Maliki)", "Suat Duman (A1 12 / Kat Maliki)",
+    "Meliha Duman (A1 12 / Eşi-Yakını)", "Mesut Şam (A1 13 / Kat Maliki)",
+    "Tuğay Savar (A1 14 / Kat Maliki)", "Ebru Savar (A1 14 / Eşi-Yakını)",
+    "Çelik Tatar (A1 15 / Kat Maliki)", "Dursun Tatar (A1 16 / Kat Maliki)",
+    "Çelik Tatar (A1 16 / Eşi-Yakını)", "Tarkan Demirkuş (A1 17 / Kat Maliki)",
+    "Handan Demirkuş (A1 17 / Kat Maliki)", "Ercan Ergüneş (A1 18 / Kat Maliki)",
+    "Beril Evren Ergüneş (A1 18 / Eşi-Yakını)", "Murat Karataş (A1 19 / Kat Maliki)",
+    "Eda Karataş (A1 19 / Eşi-Yakını)", "Coşkun Solak (A1 20 / Kat Maliki)"
+    "Tuğçe Solak (A1 20 / Eşi-Yakını)", "Mustafa Bıçakçı (A1 21 / Kat Maliki)",
+    "Tuğçe Bıçakçı (A1 21 / Eşi-Yakını)", "Emre Adsalan (A1 22 / Kat Maliki)",
+    "Nurşen Ünden (A1 23 / Kat Maliki)", "Mert Ermeral (A1 24 / Kat Maliki)",
+    "Yasin Uçar (A1 25 / Kat Maliki)", "Hasan Alper Karakaya (A1 26 / Kat Maliki)",
+    "Murat Hoşsoy (A1 27 / Kat Maliki)", "Adem Koçal (A1 28 / Kat Maliki)"
+    "Öykü Koçal (A1 28 / Eşi-Yakını)", "Zehra Hanım (A1 29 / Kat Maliki)",
+    "Musa Ercan (A1 30 / Kat Maliki)", "Adnan Doğru (A1 31 / Kat Maliki)",
+    "Yağmur Doğru (A1 31 / Eşi-Yakını)", "Tayfun Ertem (A1 32 / Kat Maliki)"
+    "Merve Ertem (A1 32 / Eşi-Yakını)"
 ]
 
 bloklarin_sakinleri["B Blok"] = [
